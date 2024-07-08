@@ -1,0 +1,515 @@
+body{
+   
+  background-color: rgb(232, 230, 230);
+  padding: 0px;
+  margin: 0px;
+
+  }
+  
+  *{
+  margin: 0px;
+  padding: 0px;
+  }
+  
+  i{
+    color: white;
+  }
+  
+  a{
+  text-decoration: none;
+  color:black;
+  }
+  
+  img{
+  cursor: pointer;
+  }
+  
+
+  .large-logo
+  {
+    border-radius: 50px;
+    height: 45px;
+    width: 45px
+  }
+  #header
+  {
+  
+  background-color:rgb(213, 210, 210);
+  width: 100vw;
+  position:fixed;    
+  z-index: 2;
+  height: 60px; 
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  }
+  
+
+  
+  #left-div
+  {
+    
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 135px;
+  margin-left: 15px;
+  }
+  
+  .search-input
+  {
+  height: 40px;
+  width: 230px;
+  margin-left: 5px;
+  padding-left: 10px;
+  background-color: rgb(224, 224, 224);
+  border-radius: 20px;
+  border: none;
+  }
+  .search-input:focus
+  {
+  border: 1px solid rgb(62, 62, 195);
+  outline: none;
+  }
+
+
+
+  
+  
+  #meddle-div
+  { 
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 650px;
+  }
+  
+
+  #meddle-div .logo-container
+  {
+   
+    height: 45px;
+    width: 130px;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #meddle-div .logo{
+    
+  
+    border-radius: 50px;
+    height: 35px;
+    width: 35px
+
+  }
+  
+.logo-container
+{
+    cursor: pointer;
+}
+#meddle-div .logo-container:hover
+  {
+    background-color: rgb(224, 224, 224);
+  }
+  #right-div .logo-container:hover
+  {
+    background-color: rgb(188, 187, 187);
+  }
+
+
+  #right-div
+  {
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 180px;
+    margin-right: 20px;
+    padding: 15px;
+  }
+
+  #right-div .logo-container
+  {
+    background-color: rgb(224, 224, 224);
+    border-radius: 50px;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #right-div .logo{
+    border-radius: 50px;
+    height: 30px;
+    width: 30px
+
+  }
+
+
+
+  
+
+  
+  
+                                     /*--------------------- main -------------- */
+  
+
+#main
+{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    margin-top: 60px;
+}
+
+
+#left-navbar
+{ 
+   position: fixed;
+    width: 25%;
+    height: 91vh;
+    padding: 5px;
+    overflow-y: scroll;
+   
+}
+
+#left-navbar img{
+    border-radius: 50px;
+    height: 35px;
+    width: 35px;
+    margin-right: 10px;
+}
+
+.navi-item
+{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 5px;
+   
+}
+
+
+.navi-item:hover
+{
+  
+   background-color: aliceblue;
+   border-radius: 5px;
+
+}
+
+
+
+
+
+#right-navbar
+{
+  position: fixed;
+  margin-left: 75%;
+    width: 30%;
+    height: 91vh;
+    padding: 5px;
+    overflow-y: scroll;
+}
+
+#sponsore-section
+{
+  margin-top: 10px;
+}
+.spon-list{
+  margin: 10px 0px;
+  display: flex;
+  align-items: center;
+
+}
+.spon-list:hover{
+  background-color: aliceblue;
+}
+.margin-left-text
+{
+  margin-left: 10px;
+}
+.spon-pic
+{
+  width: 130px;
+  border-radius: 5px;
+}
+
+
+.your-page
+{
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+.profile-pic
+{
+  border-radius: 50px;
+  height: 35px;
+  width: 35px
+}
+
+
+
+#switch-page{
+  
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.small-logo
+{
+  border-radius: 50px;
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+}
+
+#create-promotion
+{
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+
+}
+
+#birthday-block
+{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+
+}
+
+.margin
+{
+  margin: 15px 0px;
+}
+
+
+.contact-list
+{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.contact-list:hover{
+  background-color: aliceblue;
+}
+#group-container
+{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+/*--------------------- --------------------------------main-body------------------- -------------- */
+
+
+
+
+#body-section
+{
+width: 50%;
+margin-left: 25%;
+padding: 20px 64px;
+
+}
+
+#story-post-container
+{
+  width: 600px;
+   height: 1000px;
+}
+
+
+#story-container
+{
+  height: 200px;
+ display: flex;
+ height: 230px;
+ justify-content: space-between;
+ background-color: rgb(255, 255, 255);
+}
+
+.story
+{
+
+  width: 143px;
+  height: 230px; /* Set your desired height */
+  overflow: hidden; /* Ensures the image does not overflow the div */
+}
+
+.story-img
+{
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the entire div */
+  object-position: center;
+}
+
+
+
+#create-post-container
+{
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+
+#comment-box
+{
+  display: flex;
+  justify-content: space-around;
+  padding: 5px 0px;
+}
+
+
+
+
+#create-post
+{display: flex;
+justify-content: space-around;
+color: gray;
+padding: 10px 0px;
+}
+
+.mind-input
+{
+  height: 40px;
+  width: 530px;
+  margin-left: 5px;
+  padding-left: 10px;
+  background-color: rgb(224, 224, 224);
+  border-radius: 20px;
+  border: none;
+}
+
+.squre-pic
+{
+  height: 20px;
+  width: 20px;
+}
+
+
+
+.create-video
+{
+  display: flex;
+
+}
+.create-photo
+{
+  display: flex;
+  
+}
+.create-feeling
+{
+  display: flex;
+  
+}
+
+
+.post-container
+{
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  margin-top: 15px;
+}
+.top-div
+{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 5px;
+}
+
+.top-div p{
+  color: gray;
+}
+  
+.post-profile
+{
+  display: flex;
+
+}
+
+.post-profile .post-profile-title
+{
+  margin-left: 10px;
+}
+
+.detail-post-div
+{
+  padding: 5px 5px;
+  line-height: 1.5;
+}
+  
+
+
+
+.post-picture
+{
+  width:600px;
+  height: 500px; /* Set your desired height */
+  overflow: hidden; /* Ensures the image does not overflow the div */
+}
+
+.post-picture .post-pic
+{
+  
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the entire div */
+  object-position: center;
+}
+
+.like-and-comment-container{
+height: 80px;
+}
+.like-and-comment-container  .like-show-div div
+{
+  display: flex;
+  align-items: center;
+}
+.like-and-comment-container  .like-show-div
+{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+.like-show-div pre
+{
+  font-size: 15px;
+}
+.logoo{
+  border-radius: 50px;
+  height: 30px;
+  width: 30px;
+}
+.like-and-comment-container .lower-div
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5px;
+}
+
+.lower-div div
+{
+  display: flex;
+  align-items: center;
+}
